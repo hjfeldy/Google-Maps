@@ -3,15 +3,15 @@ I found myself needing the latitude and longitude of very many cities, and was r
 ## Extract latitude and longitude values from a list of places (No API needed!)
 
 In order for this script to work, you will need:
-	Firefox
-	Selenium (install with pip or conda)
-	[Geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.28.0)
-	
-	Geckodriver must be added to your [PATH](https://www.youtube.com/watch?v=iTyK5KGNx-Y)
-	
+Firefox
+Selenium (install with pip or conda)
+[Geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.28.0)
+
+Geckodriver must be added to your [PATH](https://www.youtube.com/watch?v=iTyK5KGNx-Y)
+
 ## Instructions:
-	* Add a list of places to config.py -- these will be the search terms entered into Google
-	* Fill in the dsired filename for csv output in config.py
-	* Run main.py
-	* Enjoy your free latitude and longitude information!
-	
+* Add a list of places to config.py -- these will be the search terms entered into Google
+* Fill in the dsired filename for csv output in config.py
+* Run main.py
+* Enjoy your free latitude and longitude information!
+
