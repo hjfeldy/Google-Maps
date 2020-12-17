@@ -2,10 +2,16 @@ from selenium import webdriver
 from selenium.webdriver import FirefoxOptions
 from selenium.webdriver.common.keys import Keys
 import pandas as pd
-from config import places, filename
+# from config import places, filename
 import re, time, sys
 tm = time.time()
 coordPattern = re.compile(r'@(-?\d+\.\d+),(-?\d+\.\d+)')
+
+filename = input('What do you want to name your file?')
+while filename[-4:] != '.csv':
+    filename = input('Please make your filename end in .csv')
+
+places = list(pd.read_csv('places.csv')['places'])
 
 def getCoords(url):
     lat = float(coordPattern.search(url).group(1))

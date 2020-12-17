@@ -1,5 +1,5 @@
 filename = 'test.csv'
-places = []
+places = ['Jerry\'s, Memphis', 'Hansen\'s, New Orleans', 'Tigerland, Baton Rouge']
 
 
 
